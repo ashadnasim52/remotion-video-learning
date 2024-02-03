@@ -321,6 +321,11 @@
   dependencies:
     remotion "4.0.106"
 
+"@remotion/paths@4.0.106":
+  version "4.0.106"
+  resolved "https://registry.yarnpkg.com/@remotion/paths/-/paths-4.0.106.tgz#d74940d44f0ef868e5537cdfeb7e9f164180b67f"
+  integrity sha512-IoKx6AEaA2BNlvbWbS5V9fikdT+23+c88fI9fmzEaZStyzesfhlfy+dTlwv7BwQvUXf2WDvmRK2sBA0YSjxepg==
+
 "@remotion/player@4.0.106":
   version "4.0.106"
   resolved "https://registry.yarnpkg.com/@remotion/player/-/player-4.0.106.tgz#b5905c327ca72d2725fdf7770fd1777d46115ff5"
@@ -346,6 +351,13 @@
     "@remotion/compositor-linux-x64-gnu" "4.0.106"
     "@remotion/compositor-linux-x64-musl" "4.0.106"
     "@remotion/compositor-win32-x64-msvc" "4.0.106"
+
+"@remotion/shapes@4.0.106":
+  version "4.0.106"
+  resolved "https://registry.yarnpkg.com/@remotion/shapes/-/shapes-4.0.106.tgz#b1d237b88ba2ed5748d97b22388a6ee4cd858332"
+  integrity sha512-hCSjahmVmmqxZT8dVyKvziPozy3vyRDFFPBTNt8oqoKgrUTK6JYBDPceOrImZ3PuUzVJXyg2D0ms8/K/m3QLBw==
+  dependencies:
+    "@remotion/paths" "4.0.106"
 
 "@remotion/studio-server@4.0.106":
   version "4.0.106"
@@ -382,6 +394,15 @@
     remotion "4.0.106"
     semver "7.5.3"
     source-map "0.7.3"
+
+"@remotion/transitions@^4.0.106":
+  version "4.0.106"
+  resolved "https://registry.yarnpkg.com/@remotion/transitions/-/transitions-4.0.106.tgz#c5bc74803329818349dbbccffc26829ce1aecc3d"
+  integrity sha512-hhFZPyM9J4DeZHqQtYulyWjMSASPFgHtyS36oRqO+F1zxALdCcnFZh1/b9wIzvSoh92POVMcYz1ziiVGv2LL4A==
+  dependencies:
+    "@remotion/paths" "4.0.106"
+    "@remotion/shapes" "4.0.106"
+    remotion "4.0.106"
 
 "@remotion/zod-types@4.0.106":
   version "4.0.106"
