@@ -3,10 +3,33 @@ import {HelloWorld, myCompSchema} from './HelloWorld';
 import {Logo, myCompSchema2} from './HelloWorld/Logo';
 import {MyVideo} from './MyComposition';
 import {SlideTransition} from './SlideTransition';
+import {GooBall} from './GooBall';
+import {MyCompositionTwo} from './MyCompositionTwo';
 
 // Each <Composition> is an entry in the sidebar!
+const FPS = 30;
 
 export const RemotionRoot: React.FC = () => {
+	return (
+		<Composition
+			id="MyComp"
+			component={MyCompositionTwo}
+			durationInFrames={150}
+			fps={30}
+			width={1920}
+			height={1080}
+		/>
+	);
+	return (
+		<Composition
+			id="GooBall"
+			component={GooBall}
+			durationInFrames={60 * 2 * FPS}
+			fps={FPS}
+			width={1080}
+			height={1080}
+		/>
+	);
 	return (
 		<>
 			<Composition
